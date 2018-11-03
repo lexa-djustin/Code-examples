@@ -1,6 +1,8 @@
 <?php
 
 /**
+ * 1
+ *
  * Class Catalog_Model_Service_Helper_Category_WithoutActiveItems
  */
 class Catalog_Model_Service_Helper_Category_WithoutActiveItems
