@@ -7,51 +7,36 @@ class NextWorkingDay
      */
     protected $date;
 
-    /**
-     * Порялковый номер субботы в неделе
-     */
     const SATURDAY = 6;
 
-    /**
-     * Порялковый номер воскрсенья в неделе
-     */
     const SUNDAY = 0;
 
-    /**
-     * Выходные
-     */
     const WEEKEND = [self::SATURDAY, self::SUNDAY];
 
-    /**
-     * Шаблон приведения даты к строке
-     */
     const DATE_FORMAT = 'Y_m_d';
 
-    /**
-     * Список всех федеральные  праздников
-     */
     const HOLIDAYS = [
-        // Новый год
+        // New Year
         'first day of january',
-        // День Мартина Лютера Кинга
+        // Martin Luther King Day
         'third monday of january',
-        // День инаугурации
+        // Inauguration Day
         '20-jan',
-        // Президентский день
+        // Presidential day
         'third monday of february',
-        // День памяти
+        // Day of Remembrance
         'last  monday of may',
-        // День независимости
+        // independence Day
         '4-Jul',
-        // День Труда
+        // Labor Day
         'first monday of september',
-        // День Колумба
+        // Columbus Day
         'second monday of october',
-        // День ветеранов
+        // Veterans Day
         '11-nov',
-        // День благодарения
+        // Thanksgiving Day
         'fourth thursday of november',
-        //Рождество
+        // Christmas
         '25-dec',
     ];
 
