@@ -8,9 +8,6 @@ use Zend\View\HelperPluginManager;
 
 class ComeBackUrlCreator
 {
-    /**
-     * Имя параметра содержаего url возврата
-     */
     const PARAM_NAME = 'return_url';
 
     /**
@@ -42,8 +39,6 @@ class ComeBackUrlCreator
     }
 
     /**
-     * Возвращает url с которого был осуществлён переход
-     *
      * @return string
      */
     public function getComeBackUrl()
@@ -69,8 +64,6 @@ class ComeBackUrlCreator
     }
 
     /**
-     * Генерирует url для родительского роута
-     *
      * @return string
      */
     protected function getReserveUrl()
